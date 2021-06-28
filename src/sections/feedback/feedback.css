@@ -1,0 +1,37 @@
+.feedback {
+    margin: 175px auto;
+}
+
+.feedback-title {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 50px 0 2px 0;
+}
+
+.feedback-type {
+    margin: 3px 0 25px 0;
+    color: #f36347;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.feedback-desc {
+    color: rgb(141, 141, 141);
+    font-size: 14px;
+    font-weight: 400;
+    border-left: 1px solid #eaeaea;
+    padding-left: 18px;
+}
+
+.fa-quote-right {
+    color: #c7c7c7;
+    font-size: 30px;
+    padding-right: 20px;
+}

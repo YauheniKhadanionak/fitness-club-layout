@@ -1,16 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Container, Row, Col} from "react-bootstrap";
+import "@fortawesome/fontawesome-free/css/all.css"
 
 import Header from './sections/header'
 import Promo from './sections/promo'
 import About from './sections/about'
 import Plans from './sections/plans'
 import FAQ from './sections/faq'
-import Locations from './sections/locations'
-import Feedback from './sections/feedback'
-import Footer from './sections/footer'
+import Locations from './sections/locations/locations'
+import Feedback from './sections/feedback/feedback'
+import Footer from './sections/footer/footer'
 
 const App = () => (
     <div className="app">
@@ -20,8 +19,14 @@ const App = () => (
         <Plans className="widgetMock"/>
         <FAQ className="widgetMock"/>
         <Locations className="widgetMock"/>
-        <Feedback className="widgetMock"/>
-        <Footer className="widgetMock"/>
+        <Feedback/>
+        <Footer/>
+
+        <button type="button" className="btn btn-primary join">JOIN NOW</button>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"/>
     </div>
 );
 
