@@ -1,0 +1,38 @@
+.section {
+  height: 445px;
+  background-color: rgba(243, 99, 71, 0.7);
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(./1.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+
+.content {
+  width: 42rem;
+  text-align: center;
+}
+
+.text {
+  align-self: flex-end;
+  color: white;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.message {
+  font-weight: 700;
+  font-size: 48px;
+}
